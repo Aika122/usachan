@@ -1,0 +1,99 @@
+.parent-container {
+    text-align: center; /* 親要素でテキストや画像を中央に */
+  }
+
+ /* 全体*/ 
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 248, 250);
+    color: black;
+  }
+  
+  /* ヘッダー */
+  header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  /* メイン */
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* ウサギ画像 */
+  .rabbit-image {
+    /* display: block; */
+    width: 70%;
+    max-width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 説明文 */
+  .description {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* コメント入力について */
+.input-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  #comment-input {
+    width: 70%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #8dc0b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #76a596;
+  }
+  
+  /* コメント表示 */
+  #comment-section {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  
+
+  /* フッター */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #8dc0b4;
+    color: white;
+    margin-top: 20px;
+  }
+  
